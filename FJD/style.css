@@ -1,0 +1,260 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+html{
+  height: 100%;
+}
+
+a:link {
+    color: White;
+}
+
+/* visited link */
+ a:visited {
+    color: White;
+}
+
+/* mouse over link */
+a:hover {
+    color: White;
+}
+
+/* selected link */
+a:active {
+    color: White;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(41,41,41,0.3);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    overflow: scroll;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 10px;}
+  .sidenav a {font-size: 13px;}
+}
+
+
+img.cat{
+  width: 30px; height: 30px;
+}
+
+.menu{
+	position: center	;
+	left: 50%;
+	border: 00px;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+ 
+}
+th { 
+  font-weight: bold; 
+}
+td, th { 
+  padding: 6px; 
+  border: 1px; 
+  font-co
+}
+table,tr,th,td,th a{
+  padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+       overflow-x: auto;
+}
+
+table,tr,th,td,th a:hover {
+    color: #f1f1f1;
+    border-radius: 100px 100px 100px 100px;
+    -moz-border-radius: 100px 100px 100px 100px;
+    -webkit-border-radius: 200px 100px 100px 150px;
+    border: 0px solid #000000;
+
+}
+
+table,tr,th,td,th a:link {
+    color: White;
+}
+
+/* visited link */
+table,tr,th,td,th a:visited {
+    color: White;
+}
+
+/* mouse over link */
+table,tr,th,td,th a:hover {
+    color: White;
+}
+
+/* selected link */
+table,tr,th,td,th a:active {
+    color: White;
+}
+
+
+
+
+
+
+
+
+span{
+
+    position: fixed;
+    background-color: rgba(10,10,10,.1);
+    color: #ffffff;
+    transition: 0.3s;
+    display: block;
+}
+
+span a:hover {
+    color: #f1f1f1;
+}
+
+
+
+.sidenavl {
+    float: right;
+    height: 100%;
+    width: 200px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: rgba(41,41,41,0.3);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    overflow: scroll;
+
+}
+
+.sidenavl a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenavl a:hover {
+    color: #f1f1f1;
+}
+
+.sidenavl .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenavl {padding-top: 15px;}
+  .sidenavl a {font-size: 18px;}
+}
+
+.sidenavf {
+    float: left;
+    height: 20%;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: rgba(41,41,41,0.3);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    overflow: auto;
+
+}
+
+.sidenavf a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenavf a:hover {
+    color: #f1f1f1;
+}
+
+.sidenavf .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenavf {padding-top: 15px;}
+  .sidenavf a {font-size: 18px;}
+}
+.jt{
+  text-align: justify;
+    text-justify: inter-word;
+}
+
+
+
+
+
+
+
+
+/*   $resultevento=0;
+  $resultevento = mysqli_query($mysqli, "SELECT * FROM eventos where g1='1'");
+  while($res = mysqli_fetch_array($resultevento)) {
+  $fondo=$res['fondo'];
+  $logo=$res['logo'];
+  $menu=$res['menu'];
+while($res = mysqli_fetch_array($resultevento)) {
+  $fondo=$res['fondo'];
+  $logo=$res['logo'];
+  $menu=$res['menu'];
+  */
