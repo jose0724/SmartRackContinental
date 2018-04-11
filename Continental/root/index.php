@@ -7,8 +7,7 @@ include_once("config.php");
 	<style>
 body {
     font-family: "Lato", sans-serif;
-    background-color: #FFFFFF;
-    
+    background-color: FFFFFF;
 }
 .sidenav {
     height: 100%;
@@ -58,9 +57,9 @@ img.cat{
 </head>
 <body>
 <center>
-	<img src="asset\banner.png" width=500 height=150>
+	<img src="http://localhost/Continental/root/asset/banner.png" width=500 height=150>
 	<p>
-  	<a href=""><img src="asset\Conti.jpg" width="100px" height="100px"></a>
+  	<a href=""><img src="http://localhost/Continental/root/asset/Conti.jpg" width="100px" height="100px"></a>
   	<form action="index.php" method="post" name="form1">
 		<table width="25%" border="0">
 			<tr> 
@@ -106,14 +105,11 @@ if(isset($_POST['Submit'])) {
 		}
 
 	if ( $user==$u && $p==$password && $pin='1234') {
-			header("Location: /Continental/ContinetalTijera.php?user=".$id."");		
+			header("Location: http://localhost/Continental/root/ContinetalTijera.php?user=".$id."");		
 	}else{
 		print 'vuelve a intentarlo';
 	}
 }
 ?>
-<footer><div><center><a href="http://localhost/Continental/root/">portal administrador </a>
-</center></div></footer>
-
 </body>
 </html>
